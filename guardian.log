@@ -1,0 +1,309 @@
+2026-03-27 11:31:47,125 [INFO] Starting Guardian Watchdog...
+2026-03-27 11:31:47,125 [INFO] Toast notifications initialized.
+2026-03-27 11:31:47,125 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-27 11:31:47,125 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-27 11:31:47,125 [INFO] ------------------------------
+2026-03-27 11:31:47,338 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:31:49,350 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:31:51,368 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:31:53,390 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:31:55,400 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Google Gemini - Google Chrome'
+2026-03-27 11:31:57,421 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Google Gemini - Google Chrome'
+2026-03-27 11:31:59,435 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:31:59,460 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:31:59,463 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:32:02,497 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:32:04,521 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '操作中心'
+2026-03-27 11:32:06,537 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:32:08,557 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:32:08,577 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:32:08,579 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:32:11,606 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:32:13,630 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:32:15,644 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:36:57,148 [INFO] Starting Guardian Watchdog...
+2026-03-27 11:36:57,148 [INFO] Toast notifications initialized.
+2026-03-27 11:36:57,148 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-27 11:36:57,148 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-27 11:36:57,148 [INFO] ------------------------------
+2026-03-27 11:36:57,337 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:36:59,361 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '搜索'
+2026-03-27 11:37:01,380 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:37:03,400 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '新标签页 - Google Chrome'
+2026-03-27 11:37:05,417 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:37:05,438 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:37:05,439 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:37:08,472 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:37:10,484 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:37:12,512 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:37:14,524 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:41:09,420 [INFO] Starting Guardian Watchdog...
+2026-03-27 11:41:09,421 [INFO] Toast notifications initialized.
+2026-03-27 11:41:09,421 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-27 11:41:09,421 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-27 11:41:09,421 [INFO] ------------------------------
+2026-03-27 11:41:09,611 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:41:11,622 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:41:13,638 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:41:13,658 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:13,721 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:16,753 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:16,754 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:16,754 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:18,767 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:18,768 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:18,768 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:20,779 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:41:22,802 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:41:22,823 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:22,824 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:25,882 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:25,884 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:25,884 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:27,907 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:27,908 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:27,908 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:29,930 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:29,932 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:29,932 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:31,954 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:41:33,966 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:41:33,990 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:33,991 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:37,023 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:37,024 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:37,024 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:39,037 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:39,038 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:39,038 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:41,058 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:41,059 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:41,059 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:43,068 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:43,069 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:43,070 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:45,091 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:45,092 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:45,092 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:47,111 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:47,112 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:47,112 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:49,123 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:49,124 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:49,124 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:51,141 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:51,142 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:51,142 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:53,155 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:53,156 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:53,157 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:55,164 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:55,166 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:55,166 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:57,179 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:57,181 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:57,181 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:41:59,193 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:41:59,194 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:41:59,194 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:01,235 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:01,236 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:01,236 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:03,246 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:42:05,263 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:42:05,286 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:05,287 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:08,318 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:08,319 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:08,319 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:10,356 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:10,357 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:10,357 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:12,379 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:12,380 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:12,380 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:14,411 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:14,412 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:14,412 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:16,438 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:16,439 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:16,439 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:18,458 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:18,459 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:18,459 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:20,472 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:20,473 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:20,473 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:22,497 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:42:24,510 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:42:26,530 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:42:28,545 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:42:28,565 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:28,567 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:31,598 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:31,598 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:31,599 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:33,613 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:33,614 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:33,614 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:35,624 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:42:37,639 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:42:39,664 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:42:41,678 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '操作中心'
+2026-03-27 11:42:43,696 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '搜索'
+2026-03-27 11:42:45,706 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:42:47,725 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:42:47,744 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:47,745 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:50,793 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:50,794 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:50,795 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:52,818 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:52,820 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:52,820 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:54,829 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:42:54,830 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:42:54,831 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:42:56,850 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:42:58,868 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '任务切换'
+2026-03-27 11:43:00,889 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '操作中心'
+2026-03-27 11:43:02,904 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:43:04,922 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '操作中心'
+2026-03-27 11:43:06,934 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:08,952 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:10,972 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:12,992 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:15,003 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:17,012 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:19,031 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '设置'
+2026-03-27 11:43:21,047 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:43:23,056 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:43:25,070 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:43:27,092 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:43:29,104 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:43:31,113 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Slay the Spire 2'
+2026-03-27 11:43:33,123 [INFO] Stopping Guardian Watchdog.
+2026-03-27 11:58:50,009 [INFO] Starting Guardian Watchdog...
+2026-03-27 11:58:50,009 [INFO] Toast notifications initialized.
+2026-03-27 11:58:50,009 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-27 11:58:50,010 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-27 11:58:50,010 [INFO] ------------------------------
+2026-03-27 11:58:50,182 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:58:52,191 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-27 11:58:54,208 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '新标签页 - Google Chrome'
+2026-03-27 11:58:56,222 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-27 11:58:56,252 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:58:56,284 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:58:59,302 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-27 11:58:59,303 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-27 11:58:59,303 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-27 11:59:01,321 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-27 11:59:03,334 [INFO] Stopping Guardian Watchdog.
+2026-03-29 15:24:36,815 [INFO] Starting Guardian Watchdog...
+2026-03-29 15:24:36,815 [INFO] Toast notifications initialized.
+2026-03-29 15:24:36,815 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-29 15:24:36,816 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-29 15:24:36,816 [INFO] ------------------------------
+2026-03-29 15:24:57,206 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '无标题 - 记事本'
+2026-03-29 15:24:59,220 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '无标题 - 记事本'
+2026-03-29 15:25:01,242 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '无标题 - 记事本'
+2026-03-29 15:25:03,254 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Men's UA Outlet Deals - Pants | Under Armour - Google Chrome'
+2026-03-29 15:25:05,278 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '新标签页 - Google Chrome'
+2026-03-29 15:25:07,298 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-29 15:25:07,327 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:25:07,392 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:25:10,433 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:25:10,434 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:25:10,434 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:25:12,451 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '操作中心'
+2026-03-29 15:25:14,465 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-29 15:25:14,487 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:25:14,488 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:25:17,505 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:25:17,506 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:25:17,507 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:25:19,529 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:21,545 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:23,556 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Visual Studio Code'
+2026-03-29 15:25:25,581 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Visual Studio Code'
+2026-03-29 15:25:30,589 [INFO] Starting Guardian Watchdog...
+2026-03-29 15:25:30,589 [INFO] Toast notifications initialized.
+2026-03-29 15:25:30,589 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-29 15:25:30,589 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-29 15:25:30,589 [INFO] ------------------------------
+2026-03-29 15:25:30,831 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:32,847 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:34,867 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:36,887 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:38,899 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:40,913 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:42,939 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:44,951 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:46,972 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:48,981 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:50,994 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:53,008 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:55,022 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:57,040 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:25:59,049 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:26:01,069 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: '无标题 - 记事本'
+2026-03-29 15:26:03,079 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-29 15:26:03,104 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:03,123 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:06,136 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:06,137 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:06,137 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:08,152 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:08,153 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:08,153 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:10,187 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:10,188 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:10,188 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:12,203 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:12,204 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:12,204 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:14,217 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:26:16,235 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-29 15:26:16,257 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:16,258 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:19,301 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:19,302 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:19,303 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:21,319 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Guardian Watchdog Alert'
+2026-03-29 15:26:23,336 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-29 15:26:23,359 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:23,360 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:26,392 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:26,393 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:26,394 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:28,404 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:26:28,405 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:26:28,405 [INFO] Alert already sent for 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome' while 'notepad.exe' is active. Waiting for window/tool change.
+2026-03-29 15:26:30,412 [INFO] Stopping Guardian Watchdog.
+2026-03-29 15:36:05,505 [INFO] Starting Guardian Watchdog...
+2026-03-29 15:36:05,505 [INFO] Toast notifications initialized.
+2026-03-29 15:36:05,505 [INFO] Monitoring for processes: ['TeamViewer.exe', 'TeamViewer_Service.exe', 'SunloginClient.exe', 'AnyDesk.exe', 'Notepad.exe']
+2026-03-29 15:36:05,506 [INFO] Blocking keywords: ['Chase', 'Bank', 'Login', 'PayPal']
+2026-03-29 15:36:05,506 [INFO] ------------------------------
+2026-03-29 15:36:05,780 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:36:07,797 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Google Gemini - Google Chrome'
+2026-03-29 15:36:09,813 [WARNING] !!! DANGER !!! Remote Tool 'notepad.exe' active while visiting sensitive site: 'Credit Card, Mortgage, Banking, Auto | Chase Online | Chase.com - Google Chrome'
+2026-03-29 15:36:09,839 [INFO] [KILL SWITCH] Sensitive window minimized.
+2026-03-29 15:36:09,861 [INFO] [SAFE SWITCH] Switched focus to desktop.
+2026-03-29 15:36:12,880 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Weixin'
+2026-03-29 15:36:14,900 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Guardian Watchdog Alert'
+2026-03-29 15:36:16,913 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Guardian Watchdog Alert'
+2026-03-29 15:36:18,925 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:20,934 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:22,946 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:24,955 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:26,971 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:28,986 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:30,998 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:33,013 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:35,032 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'Progress Report 5.docx - Word'
+2026-03-29 15:36:37,044 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-29 15:36:39,064 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'
+2026-03-29 15:36:41,080 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'prac'
+2026-03-29 15:36:43,098 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: ''
+2026-03-29 15:36:45,121 [INFO] Warning: Remote Tool 'notepad.exe' active. Current Window: 'guardian_v0.py - project - Visual Studio Code'

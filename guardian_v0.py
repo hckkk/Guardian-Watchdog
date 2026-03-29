@@ -1,26 +1,26 @@
-_TOAST_AVAILABLE = False
 try:
-    from win11toast import notify as _notify
-    _TOAST_AVAILABLE = True
+    from win11toast import notify
 except Exception as e:
     # When running under a Windows Service, the Python environment can differ
     # from an interactive shell. Avoid failing the service on startup just
     # because toast notifications aren't available.
-    def _notify(*args, **kwargs):  # type: ignore[no-redef]
+    def notify(*args, **kwargs):  # type: ignore[no-redef]
         return None
-    _import_error = str(e)
+    
 
+def force_alert_popup(title, message):
+    """
+    Displays a system-modal message box that forces itself on top of all windows
+    and ignores Windows Do Not Disturb (Focus Assist) settings.
+    Runs in a separate thread so it doesn't block the main watchdog loop.
+    """
+    def _show_msgbox():
+        # MB_OK (0) | MB_ICONWARNING (0x30) | MB_SYSTEMMODAL (0x1000)
+        flags = 0 | 0x30 | 0x1000
+        ctypes.windll.user32.MessageBoxW(0, message, title, flags)
 
-def notify(title, body, **kwargs):
-    """Show Windows toast. Logs if unavailable (e.g. when running as a service)."""
-    if _TOAST_AVAILABLE:
-        try:
-            _notify(title, body, **kwargs)
-        except Exception as e:
-            print(f"[NOTIFY ERROR] Toast failed: {e}")
-    else:
-        err = globals().get("_import_error", "import failed")
-        print(f"[NOTIFY] Skipped (toast not available - {err})")
+    threading.Thread(target=_show_msgbox, daemon=True).start()
+
 import psutil
 import time
 import threading
@@ -30,8 +30,19 @@ import win32gui
 import win32con
 import ctypes
 import win32serviceutil
+import logging
+import os
 
-
+# --- Logging Configuration ---
+log_file = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'guardian.log')
+logging.basicConfig(
+    level=logging.INFO,
+    format='%(asctime)s [%(levelname)s] %(message)s',
+    handlers=[
+        logging.FileHandler(log_file),
+        logging.StreamHandler(sys.stdout)
+    ]
+)
 
 
 # --- Configuration ---
@@ -102,19 +113,19 @@ def is_remote_tool_running():
 
 def debug_list_processes():
     """Print all running processes - use to verify Notepad's actual name on your system."""
-    print("Running processes (looking for Notepad or similar):")
-    print("-" * 50)
+    logging.info("Running processes (looking for Notepad or similar):")
+    logging.info("-" * 50)
     for proc in psutil.process_iter(['name', 'exe']):
         try:
             name = proc.info.get('name') or "?"
             exe = proc.info.get('exe') or ""
             # Show anything with 'note' or 'notepad' or '记事本' in name/path
             if "note" in name.lower() or "note" in exe.lower() or "记事本" in exe:
-                print(f"  {name!r}  (exe: {exe})")
+                logging.info(f"  {name!r}  (exe: {exe})")
         except (psutil.NoSuchProcess, psutil.AccessDenied):
             pass
-    print("-" * 50)
-    print("Run this with Notepad OPEN to see its process name.")
+    logging.info("-" * 50)
+    logging.info("Run this with Notepad OPEN to see its process name.")
 
 
 def get_active_window_title():
@@ -132,17 +143,17 @@ def get_active_window_title():
 
 
 def main():
-    print("Starting Guardian Watchdog...")
-    print(f"Toast notifications: {'available' if _TOAST_AVAILABLE else 'NOT available (run interactively, not as a service)'}")
-    print(f"Monitoring for processes: {REMOTE_TOOLS}")
-    print(f"Blocking keywords: {SENSITIVE_KEYWORDS}")
-    print("-" * 30)
+    logging.info("Starting Guardian Watchdog...")
+    logging.info(f"Toast notifications initialized.")
+    logging.info(f"Monitoring for processes: {REMOTE_TOOLS}")
+    logging.info(f"Blocking keywords: {SENSITIVE_KEYWORDS}")
+    logging.info("-" * 30)
 
     stop_event = threading.Event()
     try:
         watchdog_loop(stop_event)
     except KeyboardInterrupt:
-        print("\nStopping Guardian Watchdog.")
+        logging.info("Stopping Guardian Watchdog.")
         stop_event.set()
 
 
@@ -153,10 +164,7 @@ def watchdog_loop(stop_event: threading.Event):
     while not stop_event.is_set():
         try:
             now = time.time()
-            print(
-                f"[LOG] Loop start at {time.strftime('%Y-%m-%d %H:%M:%S', time.localtime(now))} "
-                f"(interval since last: {now - last_time:.2f}s)"
-            )
+            # logging.debug(f"Loop interval since last: {now - last_time:.2f}s")
             last_time = now
             # Step 1: Check for Remote Tool
             is_running, tool_name = is_remote_tool_running()
@@ -176,36 +184,36 @@ def watchdog_loop(stop_event: threading.Event):
 
                     # Step 3: Danger - Sensitive Window Open
                     if alert_key != last_alert_key:
-                        print(
+                        logging.warning(
                             f"!!! DANGER !!! Remote Tool '{tool_name}' active while visiting sensitive site: '{active_title}'"
                         )
                         kill_sensitive_window()
                         # Windows notification to inform user calmly
                         time.sleep(1)
-                        notify(
+                        force_alert_popup(
                             "Guardian Watchdog Alert",
                             f"Remote tool '{tool_name}' detected. Sensitive window minimized for safety.",
                         )
                         last_alert_key = alert_key
                     else:
                         kill_sensitive_window()
-                        print(
-                            f"⚠️  Alert already sent for '{active_title}' while '{tool_name}' is active. Waiting for window/tool change."
+                        logging.info(
+                            f"Alert already sent for '{active_title}' while '{tool_name}' is active. Waiting for window/tool change."
                         )
                 else:
                     # Remote tool is running, but window is safe
-                    print(
-                        f"⚠️  Warning: Remote Tool '{tool_name}' active. Current Window: '{active_title}'"
+                    logging.info(
+                        f"Warning: Remote Tool '{tool_name}' active. Current Window: '{active_title}'"
                     )
                     last_alert_key = None
             else:
                 # Step 4: System Safe
-                print("✅  System Safe (No remote tools detected)")
+                # logging.debug("System Safe (No remote tools detected)")
                 last_alert_key = None
 
         except Exception as e:
             # Keep running even after transient errors
-            print(f"An unexpected error occurred: {e}")
+            logging.error(f"An unexpected error occurred: {e}", exc_info=True)
 
         # Sleep to reduce CPU usage (interruptible)
         stop_event.wait(2)
@@ -217,28 +225,22 @@ def kill_sensitive_window():
         hwnd = win32gui.GetForegroundWindow()
         if hwnd:
             win32gui.ShowWindow(hwnd, win32con.SW_MINIMIZE)
-            print("[KILL SWITCH] Sensitive window minimized.")
+            logging.info("[KILL SWITCH] Sensitive window minimized.")
             switch_to_desktop()
         else:
-            print("[KILL SWITCH ERROR] No active window to minimize.")
+            logging.warning("[KILL SWITCH ERROR] No active window to minimize.")
     except Exception as e:
-        print(f"[KILL SWITCH ERROR] Could not minimize/close window: {e}")
+        logging.error(f"[KILL SWITCH ERROR] Could not minimize/close window: {e}")
 
 
 def switch_to_desktop():
     try:
-        user32 = ctypes.windll.user32
-        vk_lwin = 0x5B
-        vk_d = 0x44
-        keyeventf_keyup = 0x0002
-
-        user32.keybd_event(vk_lwin, 0, 0, 0)
-        user32.keybd_event(vk_d, 0, 0, 0)
-        user32.keybd_event(vk_d, 0, keyeventf_keyup, 0)
-        user32.keybd_event(vk_lwin, 0, keyeventf_keyup, 0)
-        print("[SAFE SWITCH] Switched focus to desktop.")
+        import win32com.client
+        shell = win32com.client.Dispatch("Shell.Application")
+        shell.ToggleDesktop()
+        logging.info("[SAFE SWITCH] Switched focus to desktop.")
     except Exception as e:
-        print(f"[SAFE SWITCH ERROR] Could not switch to desktop: {e}")
+        logging.error(f"[SAFE SWITCH ERROR] Could not switch to desktop: {e}")
 
 class GuardianService(win32serviceutil.ServiceFramework):
     _svc_name_ = "GuardianWatchdog"
